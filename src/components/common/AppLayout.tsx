@@ -24,7 +24,7 @@ const AppLayout = (props: any) => {
         minHeight: "100vh",
       }}
     >
-      <Flex column pl={mdDown ? 0 : "70px"} flex={1} width="100%" height="100%">
+      <Flex flex={1} width="100%" height="100%">
         <Flex flex={1} width="100%" height="100%">
           {props.children}
         </Flex>
